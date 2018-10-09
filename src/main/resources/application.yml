@@ -5,3 +5,5 @@ security:
         clientSecret: acmesecret
         authorized-grant-types: authorization_code,refresh_token,password
         scope: openid
+server:
+  use-forward-headers: true
